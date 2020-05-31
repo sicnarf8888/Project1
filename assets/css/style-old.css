@@ -1,0 +1,89 @@
+body {
+	background-image:               url("../images/heart-background.jpg");
+    font-family:                    'Nova Square', cursive;
+    background-repeat:              no-repeat;
+    background-size:                cover;
+}
+
+.jumbotron {
+    text-align:                     center;
+    padding-bottom:                 2px;
+    padding-top:                    10px;
+    filter:                         drop-shadow(5px 5px 10px darkmagenta);
+}
+
+h1 {
+    font-family:                    'Amarante', cursive;
+    font-size:                      260%;
+    color:                          darkred;
+    filter:                         drop-shadow(2px 2px 2px rgb(139, 247, 247));
+    -webkit-text-stroke:            1px #093249;
+}
+
+.wrapper {
+width:                              95%;
+height:                             12%;
+text-align:                         center;
+margin:                             auto;
+}
+
+.container {
+background-color:                   white;
+width:                              95%;
+}
+
+#active {
+    background-color:               crimson;
+    color:                          white;
+}
+
+#link {
+    color:                          darkred;
+}
+
+#link:hover {
+    background-color:               #E34363;
+    color:                          gold;
+}
+
+/* div {
+    border: 0.25px solid black;
+} */
+
+img {
+
+}
+
+label {
+    color:                          darkred;
+    font-size:                      large;
+    text-align:                     center;
+}
+
+.btn-default {
+    color:                          #000;
+    font-size:                      medium;
+    background-color:               goldenrod;
+}
+
+.btn-default:hover {
+    background-color:               darkgoldenrod;
+}
+
+.holder {
+    float:                          left;
+}
+
+.form-row {
+    padding-top:                    8px; 
+    line-height:                    2; 
+}
+
+ #navbar    {
+    padding-bottom:                 10px; 
+ }
+
+#yelpsearch {
+    line-height:                    1.0; 
+    margin-top: 0.25rem !important;
+}

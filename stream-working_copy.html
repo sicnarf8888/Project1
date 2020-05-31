@@ -1,0 +1,60 @@
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 1 || Date Night Planner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- jQuery -->   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <!-- Link to CSS -->  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Link to Google Font -->  <link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+  <!-- Link to Google Font -->  <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+  <!--Added link to awesome icon -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<body>
+<div class="wrapper">
+    <div class="jumbotron align-middle" style="border-radius: 18px;"><h1>Date Night Planner</h1></div>
+</div>
+
+<div class="container">
+  <div class="row" id="navbar">
+      <div class="col-md-1"> </div>
+      <div class="col-md-10 align-middle">
+          <nav class="nav nav-pills nav-justified">
+              <a class="nav-item nav-link active" id="active" href="#">DINNER</a>
+              <a class="nav-item nav-link" id="link" href="date.html">PICK MOVIE</a>
+              <a class="nav-item nav-link" id="link" href="stream.html">FIND MOVIE</a>
+          </nav>
+      </div>
+      <div class="col-md-1"> </div>
+  </div>
+<!--------------------------------------->
+  <div class="row-no-gutters align-middle align-items-center py-0 px-0" id="containerMovies">
+    <form id="form" class="form-inline">
+      <div class="col pr-1 pl-0" id="moviesearch"><label for="user-input">Find Your<br>Movie</label></div>
+      <div class="col pr-3">
+        <input type="text" class="form-control" id="movietitle" aria-describedby="emailHelp" placeholder="Search by Movie Title" size="60%" required>
+      </div>
+      <div class="col px-0 align-left float-left" id="sub_buttons">
+        <input type="button" value="Submit" class="btn btn-default" id="searchMovies">
+        <!-- Here we have our clear the page button -->
+        <button type="button" id="clear-all" class="btn btn-primary btn-lg">
+        <i class="fa fa-refresh" aria-hidden="true"></i></button>
+      </div>
+    </form>
+  </div>
+
+  <div id="contentDiv"></div>
+  <div id="movies-view"></div>
+  <div id="movies-searchable"> </div>
+  <div id="movies-container"></div>
+<!----------------------------------------->
+        
+        
+</div>
+    <div class="footer"><p>&copy; Ben Pornamnuay, Francis Duya, Krista Clarke - Project 1 (Week 8)</p></div>
+
+ <!-- Link to JS -->
+<script src="assets/javascript/movies.js"></script>
+</body>
+</html>
